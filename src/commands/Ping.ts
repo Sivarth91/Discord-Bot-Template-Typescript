@@ -3,7 +3,6 @@ import { SlashCommand } from "src/types";
 
 export const Ping: SlashCommand = {
     name: 'ping',
-    description: 'give your ping',
     data: new SlashCommandBuilder()
                 .setName('ping')
                 .setDescription('give your ping'),
